@@ -12,7 +12,7 @@ import Tests from "./components/pages/Tests";
 export default function App() {
 
   return (
-    <div className="App container-fluid align-items-start">
+    
       <Router>
         <Navbar />
         <Routes>
@@ -23,6 +23,6 @@ export default function App() {
           {/* <Route path="contacts" element={<Contacts />} /> */}
         </Routes>
       </Router>
-    </div>
+    
   );
 }
