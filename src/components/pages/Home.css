@@ -1,0 +1,10 @@
+.carousel-text {
+    position:absolute;
+    bottom:5%;
+    left:25%;
+    color: rgba(255, 255, 255, 0.719);
+    background-color: rgba(122, 159, 191, 0.563);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-size-adjust: auto;
+}

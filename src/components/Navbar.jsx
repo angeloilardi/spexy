@@ -1,10 +1,14 @@
+import { NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
-    <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary border">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <NavLink to="/" className="navbar-brand">
           SPEXY
-        </a>
+        </NavLink>
+        {/* <a className="navbar-brand" href="#">
+          SPEXY
+        </a> */}
         <button
           className="navbar-toggler"
           type="button"
@@ -19,24 +23,24 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink to="glasses" className="nav-link">
                 Glasses
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink to="sunglasses" className="nav-link">
                 Sunglasses
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink to="tests" className="nav-link">
                 Eye Tests
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contact Us
-              </a>
+              <NavLink to="contacts" className="nav-link">
+               Contact Us
+              </NavLink>
             </li>
           </ul>
         </div>
