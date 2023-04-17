@@ -1,5 +1,5 @@
-import { Fade, Slide } from "react-awesome-reveal";
-import glasses from './../../data/data.json'
+import { Fade} from "react-awesome-reveal";
+import glasses from './../../data/glasses-data.json'
 
 export default function Glasses() {
   return (
