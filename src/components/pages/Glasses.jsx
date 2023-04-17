@@ -16,7 +16,7 @@ export default function Glasses() {
                     alt=""
                   />
                   <div className="position-absolute bottom-0 start-0 p-3">
-                    <h2 className=" text-black bg-light bg-gradient">{ card.caption.toUpperCase()}</h2>
+                    <h2 className="text-black bg-light bg-gradient">{ card.caption.toUpperCase()}</h2>
                   </div>
                 </Fade>
               </div>
