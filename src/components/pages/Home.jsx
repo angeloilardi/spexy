@@ -21,7 +21,7 @@ export default function Home() {
             alt="sunglasses on a field"
           />
           <div class="carousel-caption">
-            <h4 className="text-black bg-light bg-gradient">
+            <h4 className="text-black bg-light bg-gradient d-inline">
               WHERE WILL THIS SUMMER TAKE YOU?
             </h4>
           </div>
@@ -33,7 +33,7 @@ export default function Home() {
             alt="an open drawer with some some pairs of glasses"
           />
           <div class="carousel-caption">
-            <h4 className="text-black bg-light bg-gradient">
+            <h4 className="text-black bg-light bg-gradient d-inline">
               EXPLORE THE NEW COLLECTION
             </h4>
           </div>
