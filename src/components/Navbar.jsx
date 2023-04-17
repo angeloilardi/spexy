@@ -10,7 +10,7 @@ export default function Navbar() {
   }
   return (
     <div className="container-fluid">
-      <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary border">
+      <nav className="navbar fixed-top navbar-expand-lg bg-white bg-gradient border">
         <div className="container-fluid">
           <NavLink to="/" className="navbar-brand">
             SPEXY <i class="bi bi-eyeglasses"></i>

@@ -2,13 +2,13 @@ import './Home.css'
 
 export default function Home() {
   return (
-    <div id="carouselExample" class="carousel slide carousel-fade">
+    <div id="carouselExample" class="carousel carousel-fade">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
             src="https://images.pexels.com/photos/837306/pexels-photo-837306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             class="d-block w-100"
-            alt="..."
+            alt="man with sunglasses"
           />
           <div class="carousel-caption">
             <h4 className="text-black bg-light bg-gradient d-inline">NEW IN</h4>
@@ -18,7 +18,7 @@ export default function Home() {
           <img
             src="https://images.pexels.com/photos/386410/pexels-photo-386410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             class="d-block w-100"
-            alt="..."
+            alt="sunglasses on a field"
           />
           <div class="carousel-caption">
             <h4 className="text-black bg-light bg-gradient">
@@ -30,7 +30,7 @@ export default function Home() {
           <img
             src="https://images.pexels.com/photos/1627639/pexels-photo-1627639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             class="d-block w-100"
-            alt="..."
+            alt="an open drawer with some some pairs of glasses"
           />
           <div class="carousel-caption">
             <h4 className="text-black bg-light bg-gradient">
