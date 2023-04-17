@@ -1,10 +1,8 @@
-.carousel-text {
-    position:absolute;
-    bottom:5%;
-    left:25%;
+.carousel-caption {
+  
     color: rgba(255, 255, 255, 0.719);
     background-color: rgba(122, 159, 191, 0.563);
-    font-size: 1.5rem;
+
     font-weight: bold;
     text-size-adjust: auto;
 }
@@ -13,3 +11,10 @@
 
   max-height: 600px;
 }
+
+/* .carousel {
+position: relative;
+top: 70px;
+right: 25%;
+
+} */
