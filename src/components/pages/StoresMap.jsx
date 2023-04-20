@@ -44,11 +44,10 @@ export default function StoresMap() {
           longitude={popupInfo.long}
           latitude={popupInfo.lat}
           onClose={() => setPopupInfo(null)}
-          style={{ padding: 10 }}
           closeButton:false
         >
           <div style={{paddingRight:20}}>
-            {popupInfo.name}
+            {popupInfo.name}, {popupInfo.address}
           </div>
         </Popup>
       )}

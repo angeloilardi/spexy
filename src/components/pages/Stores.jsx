@@ -6,7 +6,7 @@ export default function Stores() {
         <div className="row mt-2 p-4 align-items-center">
           <div className="col-lg-5 col-md-6">
             <img
-              className="w-100"
+              className="img-fluid"
               src="https://images.pexels.com/photos/5201901/pexels-photo-5201901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="glasses store"
             />

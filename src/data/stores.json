@@ -1,8 +1,8 @@
 [
     {
-        "name": "Covent Garden", "long": -0.129144731863642, "lat": 51.51248096016143
+        "name": "Covent Garden", "address": "12 Floral Street",  "long": -0.129144731863642, "lat": 51.51248096016143
     },
      {
-        "name": "Soho", "long": -0.13515659075873787, "lat": 51.51198747967716
+        "name": "Soho", "address": "24 Brewer Street","long": -0.13515659075873787, "lat": 51.51198747967716
     }
 ]
