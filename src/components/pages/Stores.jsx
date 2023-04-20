@@ -5,13 +5,13 @@ export default function Stores() {
     const [viewState, setViewState] = useState({
       longitude: -0.129144731863642,
       latitude: 51.51248096016143,
-      zoom: 12,
+      zoom: 14,
     });
 
   return (
     <Map
       {...viewState}
-      style={{ width: 600, height: 400 }}
+      style={{ width: 600, height: 400, maxWidth: "80vw" }}
       onMove={(evt) => setViewState(evt.viewState)}
       mapStyle="mapbox://styles/mapbox/streets-v9"
       mapboxAccessToken="pk.eyJ1IjoibWFwc3NwYW0iLCJhIjoiY2xnNm83amo5MDg4ajNlcjBocG5hdjAzciJ9.kdTbe8WsLic0PO9Wd_De2g"
