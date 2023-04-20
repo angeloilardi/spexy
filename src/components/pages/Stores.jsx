@@ -1,59 +1,49 @@
-import Map, { Marker, Popup, NavigationControl } from "react-map-gl";
-import { useState } from "react";
-import "mapbox-gl/dist/mapbox-gl.css";
+import StoresMap from "./StoresMap";
 
-import stores from "./../../data/stores.json";
 export default function Stores() {
-  const [popupInfo, setPopupInfo] = useState(null);
-
-  const [viewState, setViewState] = useState({
-    longitude: -0.129144731863642,
-    latitude: 51.51248096016143,
-    zoom: 14,
-  });
-
-  return (
-    <Map
-      reuseMaps
-      {...viewState}
-      style={{ width: 600, height: 400, maxWidth: "80vw" }}
-      onMove={(evt) => setViewState(evt.viewState)}
-      mapStyle="mapbox://styles/mapbox/streets-v9"
-      mapboxAccessToken="pk.eyJ1IjoibWFwc3NwYW0iLCJhIjoiY2xnNm83amo5MDg4ajNlcjBocG5hdjAzciJ9.kdTbe8WsLic0PO9Wd_De2g"
-    >
-      {stores.map((store) => {
-        return (
-          <Marker
-            key={store.name}
-            longitude={store.long}
-            latitude={store.lat}
-            color="red"
-            onClick={(e) => {
-              // If we let the click event propagates to the map, it will immediately close the popup
-              // with `closeOnClick: true`
-              e.originalEvent.stopPropagation();
-              setPopupInfo(store);
-            }}
-          />
-        );
-      })}
-
-      {popupInfo && (
-        <Popup
-          anchor="top"
-          longitude={popupInfo.long}
-          latitude={popupInfo.lat}
-          onClose={() => setPopupInfo(null)}
-          style={{ padding: 10 }}
-          closeButton:false
-        >
-          <div style={{paddingRight:20}}>
-            {popupInfo.name}
+    return (
+      <div className="container">
+        <div className="row mt-2 p-4 align-items-center">
+          <div className="col-lg-5 col-md-6">
+            <img
+              className="w-100"
+              src="https://images.pexels.com/photos/5201901/pexels-photo-5201901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="glasses store"
+            />
           </div>
-        </Popup>
-      )}
-
-      <NavigationControl />
-    </Map>
-  );
+          <div className="col-md-6 p-2">
+            <p>
+              Visit out store today to choose from a wide variety of frames the
+              one that suists you best. <br />
+              Are you looking for a pair that matches well with pretty much
+              anything? Or you're considering to get a pair for every
+              mood/style/state of mind? <br />
+              Whatever you have in mind, our staff in store will guide you
+              (gently, we're not pushy) into finding a match made in heaven.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div className="row align-items-center">
+          <div className="col-sm-6 col-xs-7">
+            <p>Our Opening hours are:</p>
+            <ul className="list-unstyled">
+              <li>Monday: 10 - 19</li>
+              <li>Tuesday: 10 - 19</li>
+              <li>Wednesday: 10 - 19</li>
+              <li>Thirsday: 10 - 19</li>
+              <li>Friday: 10 - 19</li>
+              <li>Saturday: 10 - 21</li>
+              <li>Sunday: 11 - 17</li>
+            </ul>
+          </div>
+          <div className="col-sm-6 col-xs-5">
+            <StoresMap />
+          </div>
+        </div>
+      </div>
+    );
+    
+    
+    
 }

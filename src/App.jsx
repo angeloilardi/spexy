@@ -8,7 +8,7 @@ import Home from './components/pages/Home';
 import Glasses from "./components/pages/Glasses";
 import Sunglasses from "./components/pages/Sunglasses"
 import Tests from "./components/pages/Tests";
-import Stores from './components/pages/Stores';
+import Stores from './components/pages/Stores.jsx';
 
 export default function App() {
 
