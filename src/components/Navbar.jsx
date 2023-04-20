@@ -60,10 +60,10 @@ export default function Navbar() {
               <li className="nav-item">
                 <NavLink
                   onClick={collapseNav}
-                  to="contacts"
+                  to="stores"
                   className="nav-link"
                 >
-                  Contact Us
+                  Our Stores
                 </NavLink>
               </li>
             </ul>

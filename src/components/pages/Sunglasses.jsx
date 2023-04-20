@@ -1,5 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import sunglasses from "./../../data/sunglasses-data.json";
+import "../../styles/pages.css";
 
 export default function Sunglasses() {
   return (
@@ -7,7 +8,7 @@ export default function Sunglasses() {
       <div className="row">
         {sunglasses.map((card) => {
           return (
-            <div className="col-lg-4" key={card.id}>
+            <div className="col-lg-4 tile" key={card.id}>
               <div className="border position-relative p-1">
                 <Fade delay={300}>
                   <img
