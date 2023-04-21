@@ -2,7 +2,7 @@ export default function Tests() {
   return (
     <div className="container">
       <div className="row bg-black align-items-center ">
-        <div className="col-lg-6 my-3 text-white order-lg-first">
+        <div className="col-lg-6 my-3 order-last text-white">
           <h2 className="mb-4 fst-italic">Book a free eye test</h2>
           <h3>
             We offer free eye tests with in-house opticians and optometrists in
@@ -12,8 +12,7 @@ export default function Tests() {
           <button className="mt-4">BOOK HERE</button>
         </div>
         <div
-          className="col-lg-6 p-0 m-0 order-md-first
-"
+          className="col-lg-6 p-0 m-0 order-md-first"
         >
           <img
             className="img-fluid object-fit-cover"
