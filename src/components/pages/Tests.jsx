@@ -1,8 +1,10 @@
+import Form from "../Form";
+
 export default function Tests() {
   return (
     <div className="container">
       <div className="row bg-black align-items-center ">
-        <div className="col-lg-6 my-3 order-last text-white">
+        <div className="col-lg-6 my-3 order-last order-lg-first text-white">
           <h2 className="mb-4 fst-italic">Book a free eye test</h2>
           <h3>
             We offer free eye tests with in-house opticians and optometrists in
@@ -20,7 +22,8 @@ export default function Tests() {
             alt=""
           />
         </div>
-      </div>
+          </div>
+          <Form />
     </div>
   );
 }
