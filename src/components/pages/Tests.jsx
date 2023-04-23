@@ -11,7 +11,7 @@ export default function Tests() {
             all our stores. If your eyes are due for a check-up or you notice
             any symptoms, we’re happy to help you out.
           </h3>
-          <button className="mt-4">BOOK HERE</button>
+          <button className="mt-4"><a href="#form">BOOK HERE</a></button>
         </div>
         <div
           className="col-lg-6 p-0 m-0 order-md-first"

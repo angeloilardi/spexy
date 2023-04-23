@@ -10,7 +10,7 @@ export default function Form() {
     setDate(newDate);
   }
   return (
-    <div className="mt-5 mx-auto" style={{ maxWidth: 600 }}>
+    <div className="mt-5 pt-5 mx-auto" style={{ maxWidth: 600 }} id="form">
       <form action="" className="needs-validation" novalidate>
         <div className="mb-3" id="location">
           <label htmlFor="location" className="form-label">
