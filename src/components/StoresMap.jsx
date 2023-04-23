@@ -2,7 +2,7 @@ import Map, { Marker, Popup, NavigationControl } from "react-map-gl";
 import { useState } from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-import stores from "../../data/stores.json";
+import stores from "../data/stores.json";
 export default function StoresMap() {
   const [popupInfo, setPopupInfo] = useState(null);
 

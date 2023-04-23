@@ -1,5 +1,5 @@
 
-import StoresMap from "./StoresMap";
+import StoresMap from "./../StoresMap";
 
 export default function Stores() {
     return (
