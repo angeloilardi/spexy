@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className="container-fluid">
       <nav className="navbar fixed-top navbar-expand-lg bg-white bg-gradient border">
         <div className="container-fluid">
-          <NavLink to="/" className="navbar-brand">
+          <NavLink to="/" className="navbar-brand fw-semibold">
             SPEXY <i class="bi bi-eyeglasses"></i>
           </NavLink>
 
