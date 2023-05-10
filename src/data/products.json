@@ -1,0 +1,20 @@
+[{
+  "title": "RayBan",
+  "id": "rayban",
+  "description": "Classic avaitor style, iconic",
+  "price": "100.00",
+  "img": "https://images.pexels.com/photos/7858515/pexels-photo-7858515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+},
+{
+ "title": "Versace",
+  "id": "versace",
+  "description": "Screams fashion",
+  "price": "200.00",
+  "img": "https://images.pexels.com/photos/9981552/pexels-photo-9981552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+},{
+  "title": "Gucci",
+  "id": "gucci",
+  "description": "Luxury AND perfection",
+  "price": "400.00",
+  "img": "https://images.pexels.com/photos/9982569/pexels-photo-9982569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+}]

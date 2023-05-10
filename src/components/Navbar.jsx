@@ -1,8 +1,16 @@
 import { NavLink } from "react-router-dom";
 import { useRef } from "react";
+import { useEffect, useState } from "react";
+import "./../App.css";
 export default function Navbar() {
   const navButton = useRef(null);
   const linksContainerRef = useRef(null);
+  const [total, setTotal] = useState(0);
+  useEffect(() => {
+    if (window.Snipcart) {
+      setTotal(Snipcart.store.getState().cart.total);
+    }
+  });
 
   function collapseNav() {
     navButton.current.classList.add("collapsed");
@@ -58,12 +66,23 @@ export default function Navbar() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  onClick={collapseNav}
-                  to="stores"
-                  className="nav-link"
-                >
+                <NavLink onClick={collapseNav} to="stores" className="nav-link">
                   Our Stores
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link snipcart-checkout snipcart-summary"
+                  onClick={collapseNav}
+                >
+                  <i class="bi bi-bag-fill"></i>
+                  <strong className="sr-only"> Cart </strong>
+                  <span className="snipcart-total-price">
+                    {new Intl.NumberFormat("en-US", {
+                      style: "currency",
+                      currency: "USD",
+                    }).format(total)}
+                  </span>
                 </NavLink>
               </li>
             </ul>
