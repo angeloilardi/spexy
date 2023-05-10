@@ -1,7 +1,13 @@
 export default function Item({id, img, title, description, price}) {
     return (
       <div key={id} className="card col-lg-4 align-items-stretch">
-        <img src={img} class="card-img-top h-50 object-fit-fill" alt="..."></img>
+        <img
+          src={img}
+          class="card-img-top img-fluid h-50"
+          alt="..."
+          style={{ objectFit: "cover" }}
+        >
+        </img>
         <div className="card-body">
           <h3>{title}</h3>
           <p>{description}</p>
