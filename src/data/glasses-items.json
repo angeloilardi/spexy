@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Tokyo",
+    "id": "tokyo",
+    "description": "Small, edgy, all but boring",
+    "price": "100.00",
+    "img": "https://images.unsplash.com/photo-1641048927024-0e801784b4f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80"
+  },
+  {
+    "title": "Valencia",
+    "id": "velencia",
+    "description": "Bighten up every room you enter",
+    "price": "150.00",
+    "img": "https://images.unsplash.com/photo-1653010131787-1ab09d70d4a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+  },
+  {
+    "title": "Copenhagen",
+    "id": "copenhagen",
+    "description": "Always in business",
+    "price": "250.00",
+    "img": "https://images.unsplash.com/photo-1647480674766-7fff4ae8becc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+  }
+]

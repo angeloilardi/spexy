@@ -1,8 +1,9 @@
 
-import sunglasses from "./../../data/sunglasses-data.json";
+import sunglasses from "./../../data/sunglasses-tiles.json";
 import "../../styles/pages.css";
-import products from "../../data/products.json";
+import sunglassesItems from "../../data/sunglasses-items.json";
 import Tile from "../Tile";
+import Item from "../Item";
 
 export default function Sunglasses() {
   return (
@@ -16,25 +17,15 @@ export default function Sunglasses() {
 
       <h3>Our Sunglasses</h3>
       <div className="row">
-        {products.map((product) => {
+        {sunglassesItems.map((product) => {
           return (
-            <div key={product.id} className="card col-lg-4">
-              <img src={product.img} class="card-img-top" alt="..."></img>
-              <h3>{product.title}</h3>
-              <p>{product.description}</p>
-              <p>${product.price}</p>
-              <p>
-                <button
-                  className="buy-button snipcart-add-item"
-                  data-item-id={product.id}
-                  data-item-image={product.img}
-                  data-item-name={product.title}
-                  data-item-price={product.price}
-                >
-                  Add to Cart
-                </button>
-              </p>
-            </div>
+            <Item
+              id={product.id}
+              img={product.img}
+              title={product.title}
+              description={product.description}
+              price={product.price}
+            />
           );
         })}
       </div>
