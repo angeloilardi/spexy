@@ -1,6 +1,9 @@
+.carousel{
+  max-width: 800px;
+  min-width: 400px;
+}
 
-
-#carouselExample img{
+.carousel img{
 
   max-height: 600px;
 }

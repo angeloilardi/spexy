@@ -4,7 +4,7 @@ import "../../styles/pages.css";
 
 export default function Glasses() {
   return (
-    <div className="container-fluid pt-5 ">
+    <div className="container pt-5 ">
       <div className="row">
         {glasses.map((card) => {
           return (

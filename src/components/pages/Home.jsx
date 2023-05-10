@@ -2,12 +2,15 @@ import '../../styles/pages.css'
 
 export default function Home() {
   return (
-    <div id="carouselExample" className="carousel carousel-fade">
+    <div
+      id="carouselExample"
+      className="carousel position-absolute top-50 start-50 translate-middle carousel-fade"
+    >
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
             src="https://images.pexels.com/photos/837306/pexels-photo-837306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            className="d-block w-100"
+            className="d-block w-100 h-auto"
             alt="man with sunglasses"
           />
           <div className="carousel-caption">

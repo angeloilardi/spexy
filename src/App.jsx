@@ -23,7 +23,7 @@ export default function App() {
           <Route path="tests" element={<Tests />} />
           <Route path="stores" element={<Stores />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </>
   );
