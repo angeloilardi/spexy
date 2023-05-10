@@ -44,7 +44,10 @@ export default function Navbar() {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <NavLink
-                  onClick={collapseNav}
+                  onClick={() => {
+                    collapseNav;
+                    Snipcart.api.modal.close();
+                  }}
                   to="glasses"
                   className="nav-link"
                 >
@@ -53,7 +56,10 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  onClick={collapseNav}
+                  onClick={() => {
+                    collapseNav;
+                    Snipcart.api.modal.close();
+                  }}
                   to="sunglasses"
                   className="nav-link"
                 >
@@ -61,12 +67,26 @@ export default function Navbar() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink onClick={collapseNav} to="tests" className="nav-link">
+                <NavLink
+                  onClick={() => {
+                    collapseNav;
+                    Snipcart.api.modal.close();
+                  }}
+                  to="tests"
+                  className="nav-link"
+                >
                   Eye Tests
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink onClick={collapseNav} to="stores" className="nav-link">
+                <NavLink
+                  onClick={() => {
+                    collapseNav;
+                    Snipcart.api.modal.close();
+                  }}
+                  to="stores"
+                  className="nav-link"
+                >
                   Our Stores
                 </NavLink>
               </li>
