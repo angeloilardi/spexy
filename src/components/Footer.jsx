@@ -1,17 +1,38 @@
 export default function Footer() {
-    return (
-      
-          <div className="pt-5 w-100">
-              <div className="container-fluid position-absolute bottom-0 start-0 pt-3">
-                <footer className="row bg-black align-items-center">
-                  <div className="col-lg-8">
-                    <p className="text-white">
-                      SPEXY <i class="bi bi-eyeglasses"></i>
-                      is a project by helldorado</p>
-                  </div>
-                </footer>
-              </div>
-          </div>
-    
-    );
+  return (
+    <div className="container-fluid pt-5 mt-auto vw-100">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">
+            © 2023 SPEXY by helldorado82
+          </span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">
+              <i class="bi bi-twitter"></i>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">
+              <i class="bi bi-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  );
 }
