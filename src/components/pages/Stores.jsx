@@ -3,7 +3,7 @@ import StoresMap from "./../StoresMap";
 
 export default function Stores() {
     return (
-      <div className="container">
+      <div className="container mt-5">
         <div className="row mt-2 p-4 align-items-center">
           <div className="col-lg-5 col-md-6 order-lg-first">
             <img
