@@ -4,8 +4,10 @@ import "../../styles/pages.css";
 import sunglassesItems from "../../data/sunglasses-items.json";
 import Tile from "../Tile";
 import Item from "../Item";
+import { useRef } from "react";
 
 export default function Sunglasses() {
+  const shop = useRef(null)
   return (
     <div className="container pt-5">
       <div className="row p-4">
@@ -15,8 +17,8 @@ export default function Sunglasses() {
       </div>
       <hr />
 
-      <div className="row p-4">
-        <h3>Our Sunglasses</h3>
+      <div className="row p-4" id="shop">
+        <h3 className="mt-5">Our Sunglasses</h3>
         <div className="row">
           {sunglassesItems.map((product) => {
             return (

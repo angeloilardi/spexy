@@ -1,8 +1,11 @@
 import { Fade } from "react-awesome-reveal";
+import { HashLink } from "react-router-hash-link";
 export default function Tile({ id, url, caption }) {
+
+
   return (
-    
-      <div className="col-lg-4 tile" key={id}>
+    <div className="col-lg-4 tile" key={id}>
+      <HashLink smooth elementId="shop">
         <div className="border position-relative p-1">
           <Fade delay={300}>
             <img className="img-fluid border-black card-img" src={url} alt="" />
@@ -13,7 +16,7 @@ export default function Tile({ id, url, caption }) {
             </div>
           </Fade>
         </div>
-      </div>
- 
+      </HashLink>
+    </div>
   );
 }

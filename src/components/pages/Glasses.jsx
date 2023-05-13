@@ -14,8 +14,8 @@ export default function Glasses() {
       </div>
       <hr />
 
-      <div className="row p-4">
-        <h3>Our Glasses</h3>
+      <div className="row p-4" id="shop">
+        <h3 className="mt-5">Our Glasses</h3>
         <div className="row">
           {glassesItems.map((product) => {
             return (
@@ -30,6 +30,6 @@ export default function Glasses() {
           })}
         </div>
       </div>
-      </div>
+    </div>
   );
 }
