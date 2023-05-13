@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="container-fluid pt-5 mt-auto vw-100">
+    <div className="container-fluid mt-auto vw-100">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top px-4">
         <div class="col-md-4 d-flex align-items-center">
           <a
