@@ -16,7 +16,7 @@ export default function StoresMap() {
     <Map
       reuseMaps
       {...viewState}
-      style={{ width: 300, height: 200, maxWidth: "80vw" }}
+      style={{ width: 300, height: 200, maxWidth: "80vw", margin:"auto" }}
       onMove={(evt) => setViewState(evt.viewState)}
       mapStyle="mapbox://styles/mapbox/streets-v9"
       mapboxAccessToken="pk.eyJ1IjoibWFwc3NwYW0iLCJhIjoiY2xnNm83amo5MDg4ajNlcjBocG5hdjAzciJ9.kdTbe8WsLic0PO9Wd_De2g"
