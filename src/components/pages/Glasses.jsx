@@ -9,7 +9,7 @@ export default function Glasses() {
     <div className="container pt-5 ">
       <div className="row p-4">
         {glasses.map((card) => {
-          return <Tile id={card.id} url={card.url} caption={card.caption} />;
+          return <Tile key={card.id} url={card.url} caption={card.caption} />;
         })}
       </div>
       <hr />

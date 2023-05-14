@@ -21,7 +21,7 @@ export default function Navbar() {
       <nav className="navbar fixed-top navbar-expand-lg bg-white bg-gradient border">
         <div className="container-fluid">
           <NavLink to="/" className="navbar-brand fw-semibold" onClick={() => Snipcart.api.modal.close()}>
-            SPEXY <i class="bi bi-eyeglasses"></i>
+            SPEXY <i className="bi bi-eyeglasses"></i>
           </NavLink>
 
           <button
@@ -95,7 +95,7 @@ export default function Navbar() {
                   className="nav-link snipcart-checkout snipcart-summary"
                   onClick={collapseNav}
                 >
-                  <i class="bi bi-bag-fill"></i>
+                  <i className="bi bi-bag-fill"></i>
                   <strong className="sr-only"> Cart </strong>
                   <span className="snipcart-total-price">
                     {new Intl.NumberFormat("en-US", {

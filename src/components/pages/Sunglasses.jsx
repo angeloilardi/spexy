@@ -2,7 +2,7 @@ import sunglasses from "./../../data/sunglasses-tiles.json";
 import "../../styles/pages.css";
 import sunglassesItems from "../../data/sunglasses-items.json";
 import Tile from "../Tile";
-import Item from "../StoreItem";
+import StoreItem from "../StoreItem";
 import { useRef } from "react";
 
 export default function Sunglasses() {
@@ -11,7 +11,7 @@ export default function Sunglasses() {
     <div className="container pt-5">
       <div className="row p-4">
         {sunglasses.map((card) => {
-          return <Tile id={card.id} url={card.url} caption={card.caption} />;
+          return <Tile key={card.id} url={card.url} caption={card.caption} />;
         })}
       </div>
       <hr />
@@ -21,8 +21,8 @@ export default function Sunglasses() {
         <div className="row">
           {sunglassesItems.map((product) => {
             return (
-              <Item
-                id={product.id}
+              <StoreItem
+                key={product.id}
                 img={product.img}
                 title={product.title}
                 description={product.description}

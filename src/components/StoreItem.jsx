@@ -3,7 +3,7 @@ export default function Item({id, img, title, description, price}) {
       <div key={id} className="card col-lg-4 align-items-stretch">
         <img
           src={img}
-          class="card-img-top img-fluid h-50"
+          className="card-img-top img-fluid h-50"
           alt="..."
           style={{ objectFit: "cover" }}
         >
