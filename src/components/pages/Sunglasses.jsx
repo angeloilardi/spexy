@@ -1,13 +1,12 @@
-
 import sunglasses from "./../../data/sunglasses-tiles.json";
 import "../../styles/pages.css";
 import sunglassesItems from "../../data/sunglasses-items.json";
 import Tile from "../Tile";
-import Item from "../Item";
+import Item from "../StoreItem";
 import { useRef } from "react";
 
 export default function Sunglasses() {
-  const shop = useRef(null)
+  const shop = useRef(null);
   return (
     <div className="container pt-5">
       <div className="row p-4">

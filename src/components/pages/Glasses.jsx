@@ -1,8 +1,8 @@
 import Tile from "../Tile";
 import glasses from "./../../data/glasses-tiles.json";
 import "../../styles/pages.css";
-import glassesItems from "./../../data/glasses-items.json"
-import Item from "../Item";
+import glassesItems from "./../../data/glasses-items.json";
+import Item from "../StoreItem";
 
 export default function Glasses() {
   return (
