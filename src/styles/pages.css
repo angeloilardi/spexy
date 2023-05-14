@@ -1,10 +1,5 @@
-.home {
-  background-color: #ffffff;
-opacity: 1;
-background-image:  linear-gradient(135deg, #fdfbfd 25%, transparent 25%), linear-gradient(225deg, #fdfbfd 25%, transparent 25%), linear-gradient(45deg, #fdfbfd 25%, transparent 25%), linear-gradient(315deg, #fdfbfd 25%, #ffffff 25%);
-background-position:  10px 0, 10px 0, 0 0, 0 0;
-background-size: 10px 10px;
-background-repeat: repeat;
+.home:hover {
+  width: 80vw;
 }
 
 .carousel{

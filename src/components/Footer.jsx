@@ -1,31 +1,24 @@
 export default function Footer() {
   return (
     <div className="container-fluid mt-auto vw-100">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top px-4">
-        <div class="col-md-4 d-flex align-items-center">
-          <a
-            href="/"
-            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-          >
-          </a>
-          <span class="mb-3 mb-md-0 text-body-secondary">
-            © 2023 SPEXY by Angelo Ilardi
-          </span>
+      <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top px-4 text-dark">
+        <div className="col-md-4 d-flex align-items-center">
+          <span className="mb-3 mb-md-0 ">© 2023 SPEXY by Angelo Ilardi</span>
         </div>
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <a class="text-body-secondary" href="#">
-              <i class="bi bi-twitter"></i>
+        <ul className="nav col-md-4 justify-content-end list-unstyled d-flex pe-4">
+          <li className="ms-3">
+            <a className="text-dark" href="#">
+              <i className="bi bi-twitter"></i>
             </a>
           </li>
-          <li class="ms-3">
-            <a class="text-body-secondary" href="#">
-              <i class="bi bi-instagram"></i>
+          <li className="ms-3">
+            <a className="text-dark" href="#">
+              <i className="bi bi-instagram"></i>
             </a>
           </li>
-          <li class="ms-3">
-            <a class="text-body-secondary" href="#">
-              <i class="bi bi-facebook"></i>
+          <li className="ms-3">
+            <a className="text-dark" href="#">
+              <i className="bi bi-facebook"></i>
             </a>
           </li>
         </ul>
