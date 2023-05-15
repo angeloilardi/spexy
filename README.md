@@ -26,6 +26,11 @@ The page also has a shopping cart feature to purchase products and checkout.
 The page is available at https://spexy.vercel.app/
 
 ## Demo
+<img src="./public/images/IMG_7973.PNG"  width="200" height="auto">
+<img src="./public/images/IMG_7974.PNG"  width="200" height="auto">
+<img src="./public/images/IMG_6DAB5D7B6C03-1.jpeg"  width="200" height="auto">
+<img src="./public/images/IMG_0FE86D5EAE2E-1.jpeg"  width="200" height="auto">
+<img src="./public/images/IMG_AA2D06B5CF43-1.jpeg"  width="200" height="auto">
 
 
 
