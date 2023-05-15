@@ -1,4 +1,4 @@
-export default function Item({id, img, title, description, price}) {
+export default function StoreItem({id, img, title, description, price}) {
     return (
       <div key={id} className="card col-lg-4 align-items-stretch">
         <img
