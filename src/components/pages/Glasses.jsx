@@ -20,6 +20,7 @@ export default function Glasses() {
           {glassesItems.map((product) => {
             return (
               <Item
+                key={product.id}
                 id={product.id}
                 img={product.img}
                 title={product.title}

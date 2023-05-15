@@ -26,7 +26,6 @@ export default function Form() {
         // data-bs-target="#formModal"
         action=""
         className="needs-validation"
-        novalidate
         onSubmit={handleSubmit}
       >
         <div className="mb-3" id="location">
@@ -47,7 +46,6 @@ export default function Form() {
             <option value="London Soho">London Soho</option>
             <option value="London Covent Garden">London Covent Garden</option>
           </select>
-          <div class="invalid-feedback">Please select a store</div>
         </div>
         <div id="calendar">
           Date and time
@@ -55,13 +53,12 @@ export default function Form() {
         </div>
 
         <div className="mt-3" id="time-pick">
-          <label htmlFor="time" class="form-label">
+          <label htmlFor="time" className="form-label">
             Time
           </label>
           <select
             className="form-select"
             name="time"
-            class="form-select"
             aria-label="select"
             value={selectedTime}
             required
@@ -88,7 +85,7 @@ export default function Form() {
               className="form-control"
               required
             />
-            <div class="invalid-feedback">Please enter your first name</div>
+            <div className="invalid-feedback">Please enter your first name</div>
           </div>
           <div className="mb-3">
             <label htmlFor="last-name" className="form-label">
@@ -101,7 +98,6 @@ export default function Form() {
               className="form-control"
               required
             />
-            <div class="invalid-feedback">Please enter your last name</div>
           </div>
           <div className="mb-3">
             <label htmlFor="email" className="form-label">
@@ -114,9 +110,6 @@ export default function Form() {
               className="form-control"
               required
             />
-            <div class="invalid-feedback">
-              Please enter a valid email address
-            </div>
           </div>
         </div>
         <div className="mt-5 fw-bold">
@@ -148,7 +141,7 @@ export default function Form() {
                 <div className="modal-footer">
                   <button
                     type="button"
-                    class="btn btn-secondary"
+                    className="btn btn-secondary"
                     // data-bs-dismiss="modal"
                     onClick={closeModal}
                   >
