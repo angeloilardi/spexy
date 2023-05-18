@@ -8,7 +8,7 @@ export default function Home() {
         <div className="position-relative home">
           <img
             src="https://images.pexels.com/photos/837306/pexels-photo-837306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            style={{ objectFit: "cover", width: "100%", height: "100vh" }}
+            style={{ objectFit: "cover", width: "100%", minHeight: "100vh" }}
             alt="man with sunglasses"
           />
           <div className="position-absolute bottom-0 start-0 pb-5 ps-2">
