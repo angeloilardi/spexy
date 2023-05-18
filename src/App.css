@@ -6,8 +6,11 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
   
 }
+
 
 .logo {
   height: 6em;
