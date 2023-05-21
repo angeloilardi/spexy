@@ -3,7 +3,11 @@ html {
   height: -webkit-fill-available;
 }
 
-
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
 body {
   margin: 0 auto;
   padding: 0;
