@@ -6,7 +6,7 @@
 
 SPEXY is the web page of a made-up optical store showcasing the products and services offered.
 
-The web page consists of a home and 4 other sections:
+The web page consists of a Home and 4 other sections:
 
 - Glasses and Sunglasses with a shopping cart to purchase products
 - Eye Tests (where customers can book an appointment for an eye test)
@@ -14,7 +14,7 @@ The web page consists of a home and 4 other sections:
 
 The user can navigate between the different parts of the web app via the navbar at the top or via the burger menu on smaller screens.
 
-The Glasses and Sunglaases sections have cards with CTA buttons redirecting to the 'Shop' section of the page where they can purchase products. The shooping cart is accesible from any part of the application via the top menu bar.
+The Glasses and Sunglaases sections have cards with CTA buttons redirecting to the 'Shop' section of the page where they can purchase products. The shooping cart is accessible from any part of the application via the top menu bar.
 
 The Eye Tests page has a form where customers can pick a location, time and date for their appointment.
 
